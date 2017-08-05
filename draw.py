@@ -75,7 +75,7 @@ def draw(f, dot):
     for sg in subGraphs:
         dot.subgraph(sg)
 
-    dot.render(f + '.graph', view = True)
+    dot.render(f + '.ecg', view = True)
 
 def updateGraph(pid, graphs):
     egs = [g for g in graphs if g.name == 'cluster' + pid]

@@ -1,0 +1,29 @@
+<0.35.0>;call;foo;start;0;ignore
+<0.35.0>;call;foo;walk;0;ignore
+<0.35.0>;spawn;<0.39.0>;erlang;apply;2;ignore
+<0.35.0>;spawn;<0.40.0>;erlang;apply;2;ignore
+<0.35.0>;returned from;foo;walk;0;ignore
+<0.35.0>;call;bar;run;0;ignore
+<0.35.0>;spawn;<0.41.0>;erlang;apply;2;ignore
+<0.35.0>;returned from;bar;run;0;ignore
+<0.35.0>;call;bar;rest;0;ignore
+<0.35.0>;returned from;bar;rest;0;ignore
+<0.35.0>;returned from;foo;start;0;ignore
+<0.39.0>;call;foo;'-walk/0-fun-0-';0;spawn
+<0.39.0>;call;foo;sing;0;spawn
+<0.39.0>;returned from;foo;sing;0;ignore
+<0.39.0>;returned from;foo;'-walk/0-fun-0-';0;ignore
+<0.40.0>;call;foo;'-walk/0-fun-1-';0;spawn
+<0.40.0>;call;foo;answer_call;0;spawn
+<0.40.0>;spawn;<0.42.0>;erlang;apply;2;ignore
+<0.40.0>;returned from;foo;answer_call;0;ignore
+<0.40.0>;returned from;foo;'-walk/0-fun-1-';0;ignore
+<0.41.0>;call;bar;'-run/0-fun-0-';0;spawn
+<0.41.0>;call;bar;play_music;0;spawn
+<0.41.0>;returned from;bar;play_music;0;ignore
+<0.41.0>;returned from;bar;'-run/0-fun-0-';0;ignore
+<0.42.0>;call;foo;'-answer_call/0-fun-0-';0;spawn
+<0.42.0>;call;foo;sit_down;0;spawn
+<0.42.0>;returned from;foo;sit_down;0;ignore
+<0.42.0>;returned from;foo;'-answer_call/0-fun-0-';0;ignore
+<0.27.0>;spawn;<0.43.0>;erlang;apply;2;ignore
